@@ -9,7 +9,7 @@ from datetime import timedelta
 
 
 st.write('# Previsão do Preço do Petróleo ')
-st.write('### Conforme maior o espaço entre as datas, maior a chance de erro.')
+st.write('### Conforme maior o espaço entre as datas, menor a precisão.')
 input_data_ini = st.date_input(label='Data Inicial', min_value=datetime.today() + timedelta(1), format='DD/MM/YYYY')
 input_data_fim = st.date_input(label='Data Final', min_value=datetime.today() + timedelta(1), format='DD/MM/YYYY')
 
